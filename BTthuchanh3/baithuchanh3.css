@@ -1,0 +1,39 @@
+
+        .parent {
+            display: flex;
+        }
+
+        .ch2 {
+            padding-top: 100px !important;
+        }
+
+        .ch1 {
+            padding-top: 200px;
+            margin: 0px !important;
+            text-align: center;
+            color: white !important;
+            font-size: larger;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        .block1 {
+            height: 400px;
+            width: 33.33%;
+            background-color: red;
+        }
+
+        .block2 {
+            height: 400px;
+            width: 33.33%;
+            background-color: green;
+        }
+
+        .block3 {
+            height: 400px;
+            width: 33.33%;
+            background-color: blue;
+        }
+    
