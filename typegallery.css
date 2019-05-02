@@ -1,0 +1,105 @@
+ .nav{
+        background-color: #007BB6;
+            height: 40px;
+            text-align: center;
+    display: inline-block;
+    margin: 0px;
+    margin-top: 5px;
+    }
+ 
+    .nav>li{
+        float: left;
+        margin-right: 15px;
+    }
+     
+    .nav>li>a{
+        text-transform: uppercase;
+        color: #fff;
+    }
+ 
+    .nav li{
+        position: relative;
+        list-style: none;
+    }
+ 
+    .nav li a{
+    	color: white;
+    	text-decoration: none;
+        padding: 10px;
+        line-height: 20px;
+        display: inline-block;
+    }
+    .nav li:hover , .nav li:hover a
+    {
+    	background-color: #4DA6FF;
+
+    }
+ 
+  
+     .Menu
+     {
+ text-align: center;
+     	 background-color: #007BB6;
+            height: auto; 
+     }
+  
+ 
+    .logo{
+    	height: 150px;
+    	width: 200px;
+       margin-top: 5px;
+
+    }
+
+ .parentlogo
+ {
+ 	margin-top: -30px;
+ }
+ .row
+ {
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ 	display: flex;
+ 	height: auto;
+ }
+ .row>div
+ {
+
+ 	width: 33.33333%;
+ 	height: auto;
+ 	
+ }
+ .row>div>div
+ {
+
+  
+    margin-top: 30px;
+ 	width: 80%;
+ 	height: 80%;
+ 	border:1px solid grey;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	border-radius: 30px;
+ }
+  .row>div>div>img
+  {
+  	width: 80%;
+  	height: 90%;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+
+  }
+   .des
+   {
+   	text-align: center;
+   	color: white;
+   	font-size:200;
+   	margin-top: -21px;
+   	display: block;
+   }
+   .row > div> div:hover .des
+   {
+    color: red;
+   }
+	
